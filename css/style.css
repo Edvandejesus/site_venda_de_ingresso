@@ -15,18 +15,18 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
-    
+
+
 
 }
 
 nav {
     width: 60%;
-    
+
 }
 
 ul {
-    display:flex;
+    display: flex;
     width: 100%;
     justify-content: space-around;
 
@@ -51,11 +51,11 @@ li:hover {
 }
 
 #banner {
-     background-image: url(../assets/image/banner.jpg);
+    background-image: url(../assets/image/banner.jpg);
     background-position: 50% 50%;
-    background-size:cover;
-    width:100%;
-    height:700px;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
 
 }
 
@@ -75,8 +75,9 @@ li:hover {
     justify-content: space-between;
 
 }
-.trailer{
-    width: 500px;
+
+.trailer {
+    width: 600px;
 
 }
 
@@ -88,12 +89,13 @@ li:hover {
     justify-content: space-between;
     margin-left: 30px;
 }
+
 .description {
     width: 500px;
     color: #fff;
     font-size: 16px;
     font-family: kdam thmor Pro, sans-serif;
-  
+
 }
 
 .button {
@@ -117,9 +119,61 @@ li:hover {
 
 
 }
+
 .button:hover {
     background-color: #B0241E;
-     
+
+}
+
+.actor_cards_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.cards_content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: kdam thmor Pro, sans-serif;
+    ;
+
+}
+
+.card:hover {
+    transform: scale(1.02);
+
+}
+
+.banner1 {
+    background-image: url('https://pursuenews.com/wp-content/uploads/2020/08/The-Batman-teaser-1-screenshot.jpg')
+}
+
+.banner2 {
+    background-image: url('https://pbs.twimg.com/ext_tw_video_thumb/1475594543840075791/pu/img/d3mUIckvDVf7WIks?format=jpg&name=medium')
 }
 
 
+.banner3 {
+    background-image: url('https://pbs.twimg.com/media/FLpCYPSX0AgA8gZ.jpg')
+}
